@@ -1,5 +1,5 @@
 package genericmethod;
-
+//古老的夜晚和远方的音乐是永恒的，但那些不属于我。
 import com.wjs.coffee.Generator;
 
 public class BasicGenerator<T> implements Generator<T> {
