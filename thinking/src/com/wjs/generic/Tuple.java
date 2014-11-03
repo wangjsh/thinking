@@ -1,5 +1,5 @@
 package com.wjs.generic;
-
+//Today, forget your past, forgive yourself and begin again.
 public class Tuple {
 	
 	public static <A,B> TwoTuple<A,B> tuple(A a,B b)
