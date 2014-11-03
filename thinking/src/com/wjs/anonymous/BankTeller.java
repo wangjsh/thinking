@@ -26,10 +26,10 @@ class Customer{
 	{
 		return new Generator<Customer>()
 				{
-			public Customer next()
-			{
-				return new Customer();
-			}
+					public Customer next()
+					{
+						return new Customer();
+					}
 				};
 	}
 }
@@ -60,7 +60,7 @@ public class BankTeller {
 
 	public static void server(Teller t,Customer c)
 	{
-		System.out.println(t+"servers "+c);
+		System.out.println(t+" servers "+c);
 	}
 	public static void main(String[] args)
 	{
