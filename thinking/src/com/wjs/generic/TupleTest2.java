@@ -1,7 +1,7 @@
 package com.wjs.generic;
 
 public class TupleTest2 {
-	
+	//huang he yuan shang baiyun jian
 	static TwoTuple<String,Integer> f()
 	{
 		return Tuple.tuple("hi",47);
