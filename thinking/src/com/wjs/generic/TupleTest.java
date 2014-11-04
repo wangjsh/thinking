@@ -1,6 +1,6 @@
 package com.wjs.generic;
 
-public class Tupletest {
+public class TupleTest {
 
 	static TwoTuple<String,Integer> f()
 	{
@@ -10,6 +10,10 @@ public class Tupletest {
 	static ThreeTuple<String,String,Integer> g()
 	{
 		return new ThreeTuple<String,String,Integer>("hi", "hi", 47);
+	}
+	public static FourTuple<String,String,Integer,Double> h()
+	{
+		return new FourTuple<String,String,Integer,Double>("hi", "hi", 47,123.456);
 	}
 	static FiveTuple<String, String, Integer, Double, Double> k()
 	{
